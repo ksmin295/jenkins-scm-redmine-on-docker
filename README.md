@@ -7,6 +7,7 @@ How to setup
 3. Run setup.sh
 
 After successful launching of Jenkins...
+
 4. docker exec hello-tomcat-jenkins cat /root/.jenkins/secrets/initialAdminPassword
 
 Input the echo string(password) into Jenkins's initial web page.
