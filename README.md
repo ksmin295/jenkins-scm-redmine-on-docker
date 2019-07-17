@@ -1,5 +1,5 @@
 # jenkins-scm-redmine-on-docker
-Dockerfile and shell script for installing Jenkins, Scm, Tomcat, Mysql, Redmine on Docker
+Dockerfile and shell script for installing Jenkins, SCM Manager, Tomcat, Mysql, Redmine on Docker
 
 How to setup
 1. Install Docker 
@@ -12,6 +12,21 @@ After successful launching of Jenkins...
 
 Input the echo string(password) into Jenkins's initial web page.
 
+5. Check every service successfully launched
+Jenkins : http://localhost:8080/jenkins
+SCM Manager : http://localhost:8080/scm
+Redmine : http://localhost:3000
+
+
+Initial Log in Info
+1. Jenkins ID :admin, PW : admin
+2. SCM Manager ID :scmadmin, PW :scmadmin
+3. Redmine ID :admin, PW: admin
+
+Installation Path in the hello-tomcat-jenkins container
+1. Maven : /usr/share/maven
+2. JDK : /usr/lib/jvm/java-8-openjdk-amd64/
+3. git : /usr/bin/git
 
 Current Version
 1. ubuntu:18.04
