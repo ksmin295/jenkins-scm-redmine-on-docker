@@ -5,3 +5,5 @@ How to setup
 1. Install docker 
 2. Download this project
 2. Run setup.sh
+
+Note. This project uses 8080, 3000 ports
