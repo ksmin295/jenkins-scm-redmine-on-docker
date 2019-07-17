@@ -4,7 +4,7 @@ Dockerfile and shell script for installing Jenkins, SCM Manager, Tomcat, Mysql, 
 How to setup
 1. Install Docker 
 2. Download this project
-3. Run setup.sh
+3. Run setup.sh (If you are using Windows, remove all "sudo" keyword in setup.sh)
 
 After successful launching of Jenkins...
 
