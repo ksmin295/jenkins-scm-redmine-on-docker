@@ -13,8 +13,11 @@ After successful launching of Jenkins...
 Input the echo string(password) into Jenkins's initial web page.
 
 5. Check every service successfully launched
+
 Jenkins : http://localhost:8080/jenkins
+
 SCM Manager : http://localhost:8080/scm
+
 Redmine : http://localhost:3000
 
 
